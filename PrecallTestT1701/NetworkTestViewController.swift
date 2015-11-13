@@ -85,7 +85,7 @@ class NetworkTestViewController: UIViewController, OTNetworkTestDelegate {
                 chatViewController.publishAudio = true
             case .Some(OTNetworkTestResultVideoAndVoice):
                 chatViewController.publishVideo = true
-                chatViewController.publishAudio = false
+                chatViewController.publishAudio = true
             default:
                 break
             }
