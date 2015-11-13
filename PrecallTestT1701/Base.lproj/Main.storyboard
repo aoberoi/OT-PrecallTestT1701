@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="WbS-bi-fyK">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Network Test-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="Network Test" id="BYZ-38-t0r" customClass="NetworkTestViewController" customModule="PrecallTestT1701" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tnd-Iy-DWU">
+                                <rect key="frame" x="265" y="110" width="71" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Start Chat"/>
+                                <connections>
+                                    <segue destination="cMb-Pg-3yA" kind="show" id="ecU-ZK-CVB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ane-vz-NtO">
+                                <rect key="frame" x="267" y="72" width="67" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Start Test"/>
+                                <state key="disabled" title="Testing Network..."/>
+                                <connections>
+                                    <action selector="beginNetworkTest:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZMi-Iq-EhZ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ane-vz-NtO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="B2d-wn-Lsw"/>
+                            <constraint firstItem="Tnd-Iy-DWU" firstAttribute="top" secondItem="ane-vz-NtO" secondAttribute="bottom" constant="8" id="HLK-G8-OfO"/>
+                            <constraint firstItem="Tnd-Iy-DWU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Whg-r9-wNJ"/>
+                            <constraint firstItem="ane-vz-NtO" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="xlO-JK-n47"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Network Test" id="RQX-KJ-Spk"/>
+                    <connections>
+                        <outlet property="networkTestButton" destination="ane-vz-NtO" id="zWs-NV-u1D"/>
+                        <outlet property="startChatButton" destination="Tnd-Iy-DWU" id="85d-FK-N8J"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1030" y="-263"/>
+        </scene>
+        <!--Chat View Controller-->
+        <scene sceneID="OoY-IC-mLD">
+            <objects>
+                <viewController id="cMb-Pg-3yA" customClass="ChatViewController" customModule="PrecallTestT1701" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ARs-dd-IJX"/>
+                        <viewControllerLayoutGuide type="bottom" id="oCl-d7-p79"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7i4-Nx-3qw">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Publisher" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UIN-ie-QkA">
+                                <rect key="frame" x="264" y="72" width="72" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O27-qR-nDN">
+                                <rect key="frame" x="20" y="101" width="560" height="420"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="O27-qR-nDN" secondAttribute="height" multiplier="4:3" id="cg6-nj-Iex"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="O27-qR-nDN" firstAttribute="top" secondItem="UIN-ie-QkA" secondAttribute="bottom" constant="8" id="3MA-hH-vOc"/>
+                            <constraint firstItem="oCl-d7-p79" firstAttribute="top" relation="greaterThanOrEqual" secondItem="O27-qR-nDN" secondAttribute="bottom" priority="750" constant="8" id="K7B-gp-Lxg"/>
+                            <constraint firstItem="UIN-ie-QkA" firstAttribute="centerX" secondItem="7i4-Nx-3qw" secondAttribute="centerX" id="Tgd-aO-8AU"/>
+                            <constraint firstItem="O27-qR-nDN" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="7i4-Nx-3qw" secondAttribute="trailingMargin" priority="750" id="Usn-qD-guZ"/>
+                            <constraint firstItem="O27-qR-nDN" firstAttribute="trailing" secondItem="7i4-Nx-3qw" secondAttribute="trailingMargin" priority="250" id="aby-5I-R0Q"/>
+                            <constraint firstItem="UIN-ie-QkA" firstAttribute="top" secondItem="ARs-dd-IJX" secondAttribute="bottom" constant="8" id="cEn-tF-Zrr"/>
+                            <constraint firstItem="O27-qR-nDN" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="7i4-Nx-3qw" secondAttribute="leadingMargin" priority="750" id="jXY-md-hh5"/>
+                            <constraint firstItem="O27-qR-nDN" firstAttribute="leading" secondItem="7i4-Nx-3qw" secondAttribute="leadingMargin" priority="250" id="l7E-xX-SuT"/>
+                            <constraint firstItem="O27-qR-nDN" firstAttribute="centerX" secondItem="7i4-Nx-3qw" secondAttribute="centerX" id="lP6-gJ-zbU"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="publisherViewContainer" destination="O27-qR-nDN" id="kqy-Iu-phK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QOM-ES-ymQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1759" y="-263"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="NIA-fR-Usu">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="WbS-bi-fyK" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1K0-4M-dw0">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="RpE-ym-T23"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ah3-ta-ts1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="290" y="-263"/>
+        </scene>
+    </scenes>
+</document>

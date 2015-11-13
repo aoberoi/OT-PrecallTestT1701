@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B772C7E0E9CDBE4AFF3E22F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C88794F8689FD2AD946DD5BA /* libPods.a */; };
+		929119631BF51B9E00DDF69E /* OTNetworkTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 929119621BF51B9E00DDF69E /* OTNetworkTest.m */; };
+		929119671BF51BFB00DDF69E /* OTDefaultAudioDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 929119661BF51BFB00DDF69E /* OTDefaultAudioDevice.m */; };
+		929119691BF58DEB00DDF69E /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929119681BF58DEB00DDF69E /* ChatViewController.swift */; };
+		9291196B1BF5928900DDF69E /* OpenTokCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9291196A1BF5928900DDF69E /* OpenTokCredentials.swift */; };
+		92B3145A1BF51A26002216AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B314591BF51A26002216AC /* AppDelegate.swift */; };
+		92B3145C1BF51A26002216AC /* NetworkTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B3145B1BF51A26002216AC /* NetworkTestViewController.swift */; };
+		92B3145F1BF51A26002216AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92B3145D1BF51A26002216AC /* Main.storyboard */; };
+		92B314611BF51A26002216AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92B314601BF51A26002216AC /* Assets.xcassets */; };
+		92B314641BF51A26002216AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92B314621BF51A26002216AC /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		28BF7AD0CC2785A0583DE8E3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		41DC6CFFCFC2B5688FC475F6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		929119601BF51B9E00DDF69E /* PrecallTestT1701-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PrecallTestT1701-Bridging-Header.h"; path = "PrecallTestT1701/PrecallTestT1701-Bridging-Header.h"; sourceTree = "<group>"; };
+		929119611BF51B9E00DDF69E /* OTNetworkTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OTNetworkTest.h; path = PrecallTestT1701/OTNetworkTest.h; sourceTree = "<group>"; };
+		929119621BF51B9E00DDF69E /* OTNetworkTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OTNetworkTest.m; path = PrecallTestT1701/OTNetworkTest.m; sourceTree = "<group>"; };
+		929119641BF51BD100DDF69E /* OTNetworkStatsKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OTNetworkStatsKit.h; path = PrecallTestT1701/OTNetworkStatsKit.h; sourceTree = "<group>"; };
+		929119651BF51BFB00DDF69E /* OTDefaultAudioDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OTDefaultAudioDevice.h; path = PrecallTestT1701/OTDefaultAudioDevice.h; sourceTree = "<group>"; };
+		929119661BF51BFB00DDF69E /* OTDefaultAudioDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OTDefaultAudioDevice.m; path = PrecallTestT1701/OTDefaultAudioDevice.m; sourceTree = "<group>"; };
+		929119681BF58DEB00DDF69E /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		9291196A1BF5928900DDF69E /* OpenTokCredentials.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenTokCredentials.swift; sourceTree = "<group>"; };
+		9291196E1BF66C5200DDF69E /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		92B314561BF51A26002216AC /* PrecallTestT1701.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrecallTestT1701.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92B314591BF51A26002216AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92B3145B1BF51A26002216AC /* NetworkTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTestViewController.swift; sourceTree = "<group>"; };
+		92B3145E1BF51A26002216AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92B314601BF51A26002216AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92B314631BF51A26002216AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92B314651BF51A26002216AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = PrecallTestT1701/Info.plist; sourceTree = "<group>"; };
+		C88794F8689FD2AD946DD5BA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92B314531BF51A26002216AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B772C7E0E9CDBE4AFF3E22F /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D75E2AD5E19369EDD1E6B92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C88794F8689FD2AD946DD5BA /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9291196C1BF66B9A00DDF69E /* OTNetworkTest */ = {
+			isa = PBXGroup;
+			children = (
+				929119651BF51BFB00DDF69E /* OTDefaultAudioDevice.h */,
+				929119661BF51BFB00DDF69E /* OTDefaultAudioDevice.m */,
+				929119641BF51BD100DDF69E /* OTNetworkStatsKit.h */,
+				929119611BF51B9E00DDF69E /* OTNetworkTest.h */,
+				929119621BF51B9E00DDF69E /* OTNetworkTest.m */,
+			);
+			name = OTNetworkTest;
+			sourceTree = "<group>";
+		};
+		9291196D1BF66BBA00DDF69E /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				9291196E1BF66C5200DDF69E /* .gitignore */,
+				92B314621BF51A26002216AC /* LaunchScreen.storyboard */,
+				92B314651BF51A26002216AC /* Info.plist */,
+				929119601BF51B9E00DDF69E /* PrecallTestT1701-Bridging-Header.h */,
+			);
+			name = Supporting;
+			sourceTree = "<group>";
+		};
+		92B3144D1BF51A26002216AC = {
+			isa = PBXGroup;
+			children = (
+				9291196D1BF66BBA00DDF69E /* Supporting */,
+				9291196C1BF66B9A00DDF69E /* OTNetworkTest */,
+				92B314581BF51A26002216AC /* PrecallTestT1701 */,
+				92B314571BF51A26002216AC /* Products */,
+				C62F4B0C13D60DA4A49827A0 /* Pods */,
+				2D75E2AD5E19369EDD1E6B92 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		92B314571BF51A26002216AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92B314561BF51A26002216AC /* PrecallTestT1701.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92B314581BF51A26002216AC /* PrecallTestT1701 */ = {
+			isa = PBXGroup;
+			children = (
+				92B314591BF51A26002216AC /* AppDelegate.swift */,
+				92B3145B1BF51A26002216AC /* NetworkTestViewController.swift */,
+				929119681BF58DEB00DDF69E /* ChatViewController.swift */,
+				9291196A1BF5928900DDF69E /* OpenTokCredentials.swift */,
+				92B3145D1BF51A26002216AC /* Main.storyboard */,
+				92B314601BF51A26002216AC /* Assets.xcassets */,
+			);
+			path = PrecallTestT1701;
+			sourceTree = "<group>";
+		};
+		C62F4B0C13D60DA4A49827A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28BF7AD0CC2785A0583DE8E3 /* Pods.debug.xcconfig */,
+				41DC6CFFCFC2B5688FC475F6 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92B314551BF51A26002216AC /* PrecallTestT1701 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92B314681BF51A26002216AC /* Build configuration list for PBXNativeTarget "PrecallTestT1701" */;
+			buildPhases = (
+				D72CED3B3E5E6E441E826E5D /* Check Pods Manifest.lock */,
+				92B314521BF51A26002216AC /* Sources */,
+				92B314531BF51A26002216AC /* Frameworks */,
+				92B314541BF51A26002216AC /* Resources */,
+				DAC7D909E5953B33A770C186 /* Embed Pods Frameworks */,
+				A699625D24734681792E0FDC /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrecallTestT1701;
+			productName = PrecallTestT1701;
+			productReference = 92B314561BF51A26002216AC /* PrecallTestT1701.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92B3144E1BF51A26002216AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Ankur Oberoi";
+				TargetAttributes = {
+					92B314551BF51A26002216AC = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 92B314511BF51A26002216AC /* Build configuration list for PBXProject "PrecallTestT1701" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92B3144D1BF51A26002216AC;
+			productRefGroup = 92B314571BF51A26002216AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92B314551BF51A26002216AC /* PrecallTestT1701 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92B314541BF51A26002216AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92B314641BF51A26002216AC /* LaunchScreen.storyboard in Resources */,
+				92B314611BF51A26002216AC /* Assets.xcassets in Resources */,
+				92B3145F1BF51A26002216AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A699625D24734681792E0FDC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D72CED3B3E5E6E441E826E5D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DAC7D909E5953B33A770C186 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92B314521BF51A26002216AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92B3145C1BF51A26002216AC /* NetworkTestViewController.swift in Sources */,
+				929119631BF51B9E00DDF69E /* OTNetworkTest.m in Sources */,
+				92B3145A1BF51A26002216AC /* AppDelegate.swift in Sources */,
+				9291196B1BF5928900DDF69E /* OpenTokCredentials.swift in Sources */,
+				929119691BF58DEB00DDF69E /* ChatViewController.swift in Sources */,
+				929119671BF51BFB00DDF69E /* OTDefaultAudioDevice.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		92B3145D1BF51A26002216AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92B3145E1BF51A26002216AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92B314621BF51A26002216AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92B314631BF51A26002216AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = PrecallTestT1701;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92B314661BF51A26002216AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92B314671BF51A26002216AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92B314691BF51A26002216AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28BF7AD0CC2785A0583DE8E3 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = PrecallTestT1701/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.aoberoi.PrecallTestT1701;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PrecallTestT1701/PrecallTestT1701-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92B3146A1BF51A26002216AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41DC6CFFCFC2B5688FC475F6 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = PrecallTestT1701/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.aoberoi.PrecallTestT1701;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PrecallTestT1701/PrecallTestT1701-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92B314511BF51A26002216AC /* Build configuration list for PBXProject "PrecallTestT1701" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92B314661BF51A26002216AC /* Debug */,
+				92B314671BF51A26002216AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92B314681BF51A26002216AC /* Build configuration list for PBXNativeTarget "PrecallTestT1701" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92B314691BF51A26002216AC /* Debug */,
+				92B3146A1BF51A26002216AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92B3144E1BF51A26002216AC /* Project object */;
+}

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Chat</key>
+	<dict>
+		<key>apiKey</key>
+		<string>854511</string>
+		<key>sessionId</key>
+		<string>2_MX44NTQ1MTF-fjE0NDczNjczNDcwODZ-dWZ4N1Z5aTdPM2I2TGFYWDVKYXdZeTFzflB-</string>
+		<key>token</key>
+		<string>T1==cGFydG5lcl9pZD04NTQ1MTEmc2lnPTI0MjlkZDYzY2M4ZjAxZTNlNjY0NjQ1NGQ1NWUxYTA5ODRhZjM4ZGE6c2Vzc2lvbl9pZD0yX01YNDROVFExTVRGLWZqRTBORGN6Tmpjek5EY3dPRFotZFdaNE4xWjVhVGRQTTJJMlRHRllXRFZLWVhkWmVURnpmbEItJmNyZWF0ZV90aW1lPTE0NDczNjczNDgmbm9uY2U9MC40NTkyNTEyMjY2MjQ0NzM5MyZyb2xlPXB1Ymxpc2hlciZleHBpcmVfdGltZT0xNDQ3NDUzNzQ4</string>
+	</dict>
+	<key>NetworkTest</key>
+	<dict>
+		<key>apiKey</key>
+		<string>854511</string>
+		<key>sessionId</key>
+		<string>2_MX44NTQ1MTF-fjE0NDczNjczNDcwODZ-dWZ4N1Z5aTdPM2I2TGFYWDVKYXdZeTFzflB-</string>
+		<key>token</key>
+		<string>T1==cGFydG5lcl9pZD04NTQ1MTEmc2lnPTI0MjlkZDYzY2M4ZjAxZTNlNjY0NjQ1NGQ1NWUxYTA5ODRhZjM4ZGE6c2Vzc2lvbl9pZD0yX01YNDROVFExTVRGLWZqRTBORGN6Tmpjek5EY3dPRFotZFdaNE4xWjVhVGRQTTJJMlRHRllXRFZLWVhkWmVURnpmbEItJmNyZWF0ZV90aW1lPTE0NDczNjczNDgmbm9uY2U9MC40NTkyNTEyMjY2MjQ0NzM5MyZyb2xlPXB1Ymxpc2hlciZleHBpcmVfdGltZT0xNDQ3NDUzNzQ4</string>
+	</dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+</dict>
+</plist>
